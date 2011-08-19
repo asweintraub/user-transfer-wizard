@@ -1,0 +1,15 @@
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\bin\Debug\UserTransferWizard.exe.config
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\bin\Debug\UserTransferWizard.exe
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\bin\Debug\UserTransferWizard.pdb
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\Window1.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\App.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard_MarkupCompile.cache
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard_MarkupCompile.lref
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\Window1.baml
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard.g.resources
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard.exe
+C:\Users\Andrew\Documents\Visual Studio 2008\Projects\UserTransferWizard\UserTransferWizard\obj\Debug\UserTransferWizard.pdb

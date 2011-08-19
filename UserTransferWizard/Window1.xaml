@@ -1,0 +1,33 @@
+﻿<Window x:Class="UserTransferWizard.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:utw="clr-namespace:UserTransferWizard"
+    Title="Profile Migration Wizard" Height="383" Width="320" ResizeMode="CanResize">
+    <StackPanel Margin="10, 10, 10, 10">
+        <Label Content="Select an account to transfer settings from:"/>
+        <ComboBox Name="Profile"/>
+        <Grid Height="20"/>
+        <Label>Select the account to transfers settings to:</Label>
+        <RadioButton GroupName="accountGroup" Margin="0,0,0,5" x:Name="domainRadioButton" Checked="domainRadioButton_Checked">Use a domain account</RadioButton>
+        <Grid Margin="15,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Domain:"/>
+            <TextBox x:Name="domain" Grid.Column="1"/>
+            <Label Content="User name:" Grid.Row="1"/>
+            <TextBox x:Name="uname" Grid.Column="1" Grid.Row="1"/>
+        </Grid>
+        <RadioButton GroupName="accountGroup" Margin="0,10,0,5" x:Name="localRadioButton" Checked="localRadioButton_Checked">Use a local account</RadioButton>
+        <ComboBox Margin="15,0,0,0" Name="DestAcct"/>
+        <CheckBox Margin="0,10,0,0" Height="Auto" Name="_replace" Click="_replace_Click" IsChecked="True">Replace Destination Profile</CheckBox>
+        <CheckBox Height="Auto" Name="_deleteProfile" IsEnabled="{Binding ElementName=_replace, Path=IsChecked, Mode=OneWay}" IsChecked="False">Delete Destination Profile (If it exists)</CheckBox>
+        <CheckBox Height="Auto" Name="_deleteAcct" IsChecked="False">Delete Source Account (After successful transfer)</CheckBox>
+        <Button Height="Auto" Name="execute" Width="100" Margin="0,15,0,0" Click="executeButton_Click" IsDefault="True">Move Profile</Button>
+    </StackPanel>
+</Window>
